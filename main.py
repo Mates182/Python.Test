@@ -7,7 +7,7 @@ def get(): return P('Nice to be here!')
 
 @rt("/")
 def get():
-    return Div(P("ola"), hx_get="/change")
+    return Titled(P("ola"), hx_get="/change")
 
 
 serve()
